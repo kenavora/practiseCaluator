@@ -1,0 +1,30 @@
+.box{display:flex;flex-direction:column; width:300px;height:366px; border: 1px solid black;position: absolute;}
+.firstline{background-color: black;height:100px;overflow:scroll;}
+#displaySteps{color: beige; font-size: 15px;}
+#display{color: beige; font-size: 30px;}
+.secondline,.thirdline,.fourthline,.fifthline,.sixthline { display:flex;flex-direction:row;height:53.2px}
+
+/*.secondline .button,.thirdline .button,.fourthline .button,.fifthline .button,.sixthline .button{
+    
+        background-color:lightgray;
+        border: 1px solid black;
+        color: black;
+        text-align: center; 
+        font-size: 20px;
+        float: left;}
+      
+       */
+
+      .button{width:75px;background-color:coral;
+        border: .2px solid black;
+        color: black;
+        text-align: center; 
+        font-size: 20px;
+        float: left;}
+
+#bigButton{width:150px;}
+
+        .button:not(:last-child) {
+            border-right: none;background-color: lightgray; }
+
+         
