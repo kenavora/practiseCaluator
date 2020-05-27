@@ -1,0 +1,105 @@
+<!doctype html>
+
+<head>
+    <title>applecalculator</title>
+    <link rel="stylesheet" a href="../applecalcCss/applecalculator.css">
+    <script src="../applecalcJs/applecalculator.js"></script>
+</head>
+
+<div class="box">
+
+    <div class="firstline">
+        <p><span id="displaySteps"> </span></p>
+        <p><span id="display"></span></p>
+    </div>
+
+    <div class="secondline">
+
+
+        <button class="button" value="AC" onclick="clearAll()">
+            AC </button> <br>
+
+        <button class="button" value="+/-" onclick="twofunctions()">
+            +/- </button>
+
+        <button class="button" value="%" onclick="operators(this.value)"
+        >
+            % </button>
+
+        <button class="button"  value="/" onclick="operators(this.value)">
+            / </button>
+
+
+
+    </div>
+
+
+    <div class="thirdline">
+
+
+        <button class="button" value="7" onclick="input(this.value)">
+            7 </button> <br>
+
+        <button class="button" value="8" onclick="input(this.value)">
+            8 </button>
+
+        <button class="button" value="9" onclick="input(this.value)">
+            9 </button>
+
+        <button class="button" value="*" onclick="operators(this.value)">
+            * </button>
+
+
+
+    </div>
+    <div class="fourthline">
+
+
+        <button class="button" value="4" onclick="input(this.value)">
+            4 </button> <br>
+
+        <button class="button" value="5" onclick="input(this.value)">
+            5 </button>
+
+        <button class="button" value="6" onclick="input(this.value)">
+            6 </button>
+
+        <button class="button"  value="-" onclick="operators(this.value)">
+            - </button>
+
+    </div>
+
+    <div class="fifthline">
+
+        <button class="button" value="1" onclick="input(this.value)">
+            1 </button> <br>
+
+        <button class="button" value="2" onclick="input(this.value)">
+            2 </button>
+
+        <button class="button" value="3" onclick="input(this.value)">
+            3 </button>
+
+        <button class="button" id = "+" value="+" onclick="operators(this.value)">
+            + </button>
+
+    </div>
+
+    <div class="sixthline">
+
+        <button class="button" value="0" id="bigButton" onclick="input(this.value)">
+            0 </button> <br>
+
+        <button class="button"  id="decimal" value="." onclick="decimal(this.value)">
+            . </button>
+
+        <button class="button" value="=" onclick="solve()">
+            = </button>
+
+
+    </div>
+
+
+</div>
+
+</html>
